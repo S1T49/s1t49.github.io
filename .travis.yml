@@ -9,6 +9,7 @@ before_install:
   -in .travis/id_rsa_s1t49.enc -out ~/.ssh/id_rsa -d
 - export TZ='Asia/Shanghai'
 - npm install -g hexo
+- npm install -g hexo-cli
 - npm install hexo-deployer-git --save
 - chmod 600 ~/.ssh/id_rsa
 - eval $(ssh-agent)
