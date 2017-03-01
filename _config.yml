@@ -70,5 +70,5 @@ theme: landscape
 deploy:
   type: git
 #repo: https://github.com/S1T49/s1t49.github.io.git
-  repo: git@github.com:S1T49/s1t49.githu.io.git
+  repo: git@github.com:S1T49/s1t49.github.io.git
   branch: master
