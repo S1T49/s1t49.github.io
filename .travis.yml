@@ -6,7 +6,7 @@ branches:
   - post
 before_install:
 - openssl aes-256-cbc -K $encrypted_8005450f0483_key -iv $encrypted_8005450f0483_iv
-  -in .travis/id_rsa_s1t49.enc -out ~/.ssh/id_rsa -d
+  -in .travis/id_rsa_s1t49.enc -out ~\/.ssh/id_rsa -d
 - export TZ='Asia/Shanghai'
 - npm install -g hexo
 - chmod 600 ~/.ssh/id_rsa
