@@ -15,7 +15,7 @@ git clone -b post https://github.com/S1T49/s1t49.github.io.git
 ```
 2.在source/_posts目录添加一篇文章,例如Class-S1T49.md,遵循markdown语法
 ``` bash
-git add source/_post/Class-S1T49.md
+git add source/_posts/Class-S1T49.md
 git commit -m "Anything you like"
 git push
 ```
