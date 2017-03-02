@@ -20,7 +20,7 @@ git commit -m "Anything you like"
 git push
 ```
 
-3.等待一些时间,这段时候是travis-ci运行的时间,不会很长.
+3.等待一些时间,这是travis-ci运行的时间,不会很长.
 现在你可以刷新博客主页 https://s1t49.github.io 刚才添加的文章已经生成了
 
 now, enjoy it...
